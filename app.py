@@ -20,7 +20,7 @@ def load_code_standards(file):
     current_std = None
     start_col = 0
     
-    # Iterate through columns to find where each standard starts and ends
+    # Iterate through columns to find where each standard starts and ends sdfdfdfdfdfdfd
     for i, val in enumerate(header_row):
         if pd.notna(val) and isinstance(val, str) and "TABLE" in val.upper() or "FGI" in str(val).upper():
             if current_std:
